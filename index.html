@@ -5,8 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <h1 class="header">Rock Paper Scissors</h1>
+    <h3 class="info">This is a game of rock paper scissors, you will play first to 5 points against this computer</h3>
+    <div class="game-content">
+        <div class="round-counter" id="round">Round 1</div>
+        <div class="scoreboard">
+            <div class="player">
+                <div class="score" id="playerScore">0</div>
+                <div class="name">Player</div>
+            </div>
+            <div class="computer">
+                <div class="score" id="computerScore">0</div>
+                <div class="name">Computer</div>
+            </div>
+        </div>
+        <div class="choices">
+            <div class="rock">👊</div>
+            <div class="paper">✋</div>
+            <div class="scissors">✌</div>
+        </div>
+        <p class="outcome" id="outcome"></p>
+        <button onclick="reset()" class="play">Play Again</button>
+    </div>
+    <div class="footer">Webpage by : Euan MAGUIRE</div>
     <script src="code.js"></script>
 </body>
 </html>

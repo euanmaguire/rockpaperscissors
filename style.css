@@ -1,0 +1,124 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #3882f6;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header, .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.game-content {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 10px solid white;
+    border-radius: 20px;
+}
+
+
+.round-counter {
+    text-align: center;
+    padding: 16px;
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 32px;
+}
+
+.player, .computer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score, .name {
+    text-align: center;
+    padding: 5px;
+    font-size: large;
+}
+
+.score {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.name {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+}
+
+.rock, .paper, .scissors {
+    font-size: 52px;
+    padding: 20px;
+    border: 4px solid white;
+    box-shadow: 3px 3px;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f299f;
+    transition: all .1s ease;
+}
+
+.info, .outcome {
+    font-style: italic;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.info {
+    text-decoration: underline;
+}
+
+.pressed {
+    transform: scale(1.1);
+    border-color: black;
+    box-shadow: 0px 0px;
+} 
+
+.play {
+    width: 100px;
+    height: 32px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 0;
+    align-self: center;
+    align-items: center;
+    margin-bottom: 32px;
+    border: 2px solid white;
+    color: white;
+    background-color: #1f299f;
+}
+
